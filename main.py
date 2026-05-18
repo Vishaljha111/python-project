@@ -1,2 +1,4 @@
-food = ["pizza","hamburger","hotdog","spaghetti"]
-print(food[1])
+name = "vishal jha"
+if(name[0].islower()):
+    name = name.capitalize()
+print(name)
