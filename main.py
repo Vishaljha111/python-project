@@ -1,4 +1,5 @@
-name = "vishal jha"
-if(name[0].islower()):
-    name = name.capitalize()
-print(name)
+def display_name():
+    name = "jha"  # local scope (available only inside this function)
+    print(name)
+
+display_name()
