@@ -1,8 +1,9 @@
-def hello():
-    print("Hello, World!")
+import random  # Add this line
 
-def greet(name):
-    print(f"Hello, {name}!")
+option = ("rock", "paper", "scissors")
+player = None 
+computer = random.choice(option)
+player = input("Enter your choice (rock, paper, scissors): ")
 
-def bye():
-    print("Goodbye!")
+print(f"Computer chose: {computer}")
+print(f"Player chose: {player}")
