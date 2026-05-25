@@ -1,9 +1,1 @@
-import random  # Add this line
-
-option = ("rock", "paper", "scissors")
-player = None 
-computer = random.choice(option)
-player = input("Enter your choice (rock, paper, scissors): ")
-
-print(f"Computer chose: {computer}")
-print(f"Player chose: {player}")
+print("\u25cf \u250c \u2500 \u2510 \u2502 \u2514 \u2518")
