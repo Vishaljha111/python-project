@@ -1,3 +1,3 @@
-print("Happy birthday to you!")
-print("you are old enough to know better!")
-print()
+def net_price(price, discount):
+    return price * (1 - discount)   
+print(net_price(100, 0.2))
