@@ -1,7 +1,4 @@
-def add(*args):
-    total = 0
-    for arg in args:
-        total += arg
-    return total
-
-print(add(1, 2, 3, 4, ...))
+doubles = []
+for x in range(1, 11):
+    doubles.append(x * 2)
+print(doubles)
