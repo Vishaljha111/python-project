@@ -1,26 +1,9 @@
-def show_balance():
-    pass
-def deposit():
-    pass
-def withdraw():
-    pass
-balance = 0
-is_running = True
-while is_running:
-    print("Welcome to the Bank!")
-    print("1. Show Balance")
-    print("2. Deposit")
-    print("3. Withdraw")
-    print("4. Exit")
-    choice = input("Enter your choice: ")
-    if choice == '1':
-        show_balance()
-    elif choice == '2':
-        deposit()
-    elif choice == '3':
-        withdraw()
-    elif choice == '4':
-        is_running = False
-        print("Thank you for using the Bank!")
-    else:
-        print("Invalid choice. Please try again.")  
+class animal:
+    alive = True
+    class dog:
+        def __init__(self, name, breed):
+            self.name = name
+            self.breed = breed
+
+        def bark(self):
+            print(f"{self.name} says: Woof!")
